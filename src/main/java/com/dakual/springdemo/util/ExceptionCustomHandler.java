@@ -24,6 +24,7 @@ public class ExceptionCustomHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.EXPECTATION_FAILED);
     }
 
+
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<ExceptionResponse> exception(Exception exception, WebRequest request) {
         ExceptionResponse exceptionResponse = new ExceptionResponse(LocalDateTime.now(), exception.getMessage(), 3000);
