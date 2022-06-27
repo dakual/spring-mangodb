@@ -1,9 +1,8 @@
-package com.dakual.springdemo.model;
+package com.dakual.springmongodb.model;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 

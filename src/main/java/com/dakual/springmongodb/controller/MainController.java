@@ -1,17 +1,15 @@
-package com.dakual.springdemo.controller;
+package com.dakual.springmongodb.controller;
 
 import java.util.List;
-import java.util.Optional;
 
-import com.dakual.springdemo.service.UserService;
+import com.dakual.springmongodb.service.UserService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.dakual.springdemo.repository.UserRepository;
-import com.dakual.springdemo.model.User;
+import com.dakual.springmongodb.model.User;
 
 import lombok.Data;
 

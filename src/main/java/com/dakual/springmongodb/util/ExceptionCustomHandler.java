@@ -1,4 +1,4 @@
-package com.dakual.springdemo.util;
+package com.dakual.springmongodb.util;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

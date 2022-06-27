@@ -1,4 +1,4 @@
-package com.dakual.springdemo;
+package com.dakual.springmongodb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

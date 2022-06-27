@@ -1,4 +1,4 @@
-package com.dakual.springdemo.util;
+package com.dakual.springmongodb.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

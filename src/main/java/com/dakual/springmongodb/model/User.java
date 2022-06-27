@@ -1,16 +1,11 @@
-package com.dakual.springdemo.model;
+package com.dakual.springmongodb.model;
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import lombok.Data;
 
 @Document(collection = "Users")
 public class User extends BaseEntity {

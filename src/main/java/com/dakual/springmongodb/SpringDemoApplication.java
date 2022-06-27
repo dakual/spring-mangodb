@@ -1,4 +1,4 @@
-package com.dakual.springdemo;
+package com.dakual.springmongodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

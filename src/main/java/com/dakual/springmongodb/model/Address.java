@@ -1,4 +1,4 @@
-package com.dakual.springdemo.model;
+package com.dakual.springmongodb.model;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,9 +1,9 @@
-package com.dakual.springdemo.service.impl;
+package com.dakual.springmongodb.service.impl;
 
-import com.dakual.springdemo.model.User;
-import com.dakual.springdemo.repository.UserRepository;
-import com.dakual.springdemo.service.UserService;
-import com.dakual.springdemo.util.UserNotFoundException;
+import com.dakual.springmongodb.model.User;
+import com.dakual.springmongodb.repository.UserRepository;
+import com.dakual.springmongodb.service.UserService;
+import com.dakual.springmongodb.util.UserNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

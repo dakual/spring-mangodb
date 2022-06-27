@@ -1,6 +1,6 @@
-package com.dakual.springdemo.service;
+package com.dakual.springmongodb.service;
 
-import com.dakual.springdemo.model.User;
+import com.dakual.springmongodb.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
